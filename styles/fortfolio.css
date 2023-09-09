@@ -78,7 +78,6 @@ section{
 /* Abouta Saction styles */
 
 .about{
-    margin-top: 130px;
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px ;
@@ -88,7 +87,6 @@ section{
     text-align: center;
     margin-bottom: 50px;
     font-size: 40px;
-    margin-bottom: 170px;
 
 }
 .section-discriotion{
@@ -132,3 +130,30 @@ section{
 }
 
 /* Resume styles */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .discription{
+    color: #757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
