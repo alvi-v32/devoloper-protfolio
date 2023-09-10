@@ -13,6 +13,20 @@
     background: #ef5b05;
     /* padding: 16px 30px; */
 }
+.btn-phone{
+    background-color: #FFFFFF;
+    color:#ef5b05;
+    border-color: #ef5b05;
+    font-weight: 500px;
+    font-size: 15px;
+    height:40px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+
+
+    
+}
 .header{
     background:#FFF8F3;
     background-image: url("../images/header_bg.png"),url(../images/developer.png);
