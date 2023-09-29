@@ -209,9 +209,37 @@ input{
 /* Responsive styles */
 
 @media screen and (max-width: 576px){
-    
+    .skills-container, .about-info-container, .contact{
+        flex-direction: column;
+        padding: 10px 20px;
+        gap: 20px;
+    }
+    .resume{
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .about, .contact {
+        padding: 20px;
+
+    }
+    .contact input[type="text"], input[type="email"], textarea{
+        padding: 0 ;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width:992px) {
-    
+    .about, .contact{
+        padding: 20px;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .skills-container, .about-info-container, .contact{
+        padding: 10px;
+    }
+}
+
+/* Hide */
+.hide{
+    display: none;
 }
