@@ -224,12 +224,21 @@ input{
     .banner{
         margin: 20px;
     }
+    .contact, .banner{
+        flex-direction: column;
+    }
     .banner img{
         width: 100%;
+        height: 100%;
     }
     nav ul{
         flex-direction: column;
         gap:20px;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+    nav li{
+        margin: 0;
     }
     .resume{
         flex-direction: column;
@@ -253,6 +262,11 @@ input{
     }
     .skills-container, .about-info-container, .contact{
         padding: 10px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap:20px;
+        align-items: flex-start;
     }
 }
 
