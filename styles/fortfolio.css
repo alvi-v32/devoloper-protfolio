@@ -224,6 +224,9 @@ input{
     .banner{
         margin: 20px;
     }
+    .banner img{
+        width: 100%;
+    }
     nav ul{
         flex-direction: column;
         gap:20px;
