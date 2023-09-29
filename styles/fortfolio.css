@@ -205,3 +205,13 @@ input{
 .contact a{
     text-decoration: none;
 }
+
+/* Responsive styles */
+
+@media screen and (max-width: 576px){
+    
+}
+
+@media screen and (min-width: 577px) and (max-width:992px) {
+    
+}
